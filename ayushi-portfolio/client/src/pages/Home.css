@@ -3,7 +3,7 @@
   align-items: center;
   text-align: center;
   justify-content: center;
-  height: 10%;
+  height: max-content;
   min-height: fit-content;
   background-color: #0a2059;
   /* background-image: url("../assets/Home/bg.jpg"); */

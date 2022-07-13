@@ -63,7 +63,6 @@ export default function Profile() {
           </div>
         </div>
       </div>
-      <h1> </h1>
 
       <Skills />
     </div>
