@@ -1,3 +1,4 @@
+import { blue, lime } from "@material-ui/core/colors";
 import React from "react";
 import Typical from "react-typical";
 import "./Home.css";
@@ -19,6 +20,7 @@ export default function Profile() {
                 </a>
               </div>
             </div>
+
             <div className="profile-details-name">
               <span className="primary-text">
                 {" "}
@@ -58,9 +60,25 @@ export default function Profile() {
               </a>
             </div>
           </div>
+          <hr
+            style={{
+              background: "#0a2059",
+              color: "#0a2059",
+              borderColor: "#0a2059",
+              height: "20px",
+            }}
+          />
           <div className="profile-picture">
             <div className="profile-picture-background"></div>
           </div>
+          <hr
+            style={{
+              background: "#0a2059",
+              color: "#0a2059",
+              borderColor: "#0a2059",
+              height: "20px",
+            }}
+          />
         </div>
       </div>
 

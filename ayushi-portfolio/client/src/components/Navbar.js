@@ -9,9 +9,9 @@ function Navbar() {
         <button></button>
       </div>
       <div className="links">
-        <a href="/"> home</a>
-        <a href="/projects"> Projects</a>
-        <a href="/experience"> Experience</a>
+        <a href="/portfolio"> Hme</a>
+        <a href="/portfolio/projects"> Projects</a>
+        <a href="/portfolio/experience"> Experience</a>
       </div>
     </div>
   );
