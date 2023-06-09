@@ -19,15 +19,36 @@
   --loader-color: #0cbfae;
 } */
 .App {
-  width: 100%;
+  /*width: 100%;
   height: auto;
   display: flex;
   flex-direction: column;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #f0f0f0;
+  background-color: #f0f0f0;*/
+  background: rgb(65, 43, 179);
+  background: linear-gradient(
+    0deg,
+    rgba(65, 43, 179, 1) 0%,
+    rgba(242, 248, 249, 1) 93%
+  );
+  height: 100%;
 }
 
 body {
   padding: 0;
   margin: 0;
+  height: 100%;
+}
+
+.card {
+  width: auto;
+  height: 200px;
+  background: rgb(235, 236, 243);
+  margin-right: 20%;
+  margin-left: 20%;
+  margin-top: 50px;
+  border-radius: 20px;
+  border: 1px solid;
+  padding: 100px;
+  box-shadow: 0px 0px 10px #888888;
 }
