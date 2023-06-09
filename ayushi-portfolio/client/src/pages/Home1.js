@@ -60,14 +60,7 @@ export default function Profile() {
               </a>
             </div>
           </div>
-          <hr
-            style={{
-              background: "#0a2059",
-              color: "#0a2059",
-              borderColor: "#0a2059",
-              height: "20px",
-            }}
-          />
+
           <div className="profile-picture">
             <div className="profile-picture-background"></div>
           </div>
