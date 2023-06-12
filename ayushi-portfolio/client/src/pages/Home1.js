@@ -6,8 +6,8 @@ import Skills from "./Skills";
 
 export default function Profile() {
   return (
-    <div>
-      {/* <div className="profile-container">
+    <div className="card">
+      <div className="profile-container">
         <div className="profile-parent">
           <div className="profile-details">
             <div className="colz">
@@ -73,9 +73,9 @@ export default function Profile() {
             }}
           />
         </div>
-      </div> */}
+      </div>
 
-      <Skills />
+      {/* <Skills /> */}
     </div>
   );
 }

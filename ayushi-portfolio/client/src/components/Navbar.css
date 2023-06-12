@@ -3,6 +3,11 @@
   height: 100px;
   background: #21325e;
 }
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 
 .links {
   width: 100%;

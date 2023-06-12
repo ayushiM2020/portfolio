@@ -5,13 +5,13 @@
   justify-content: center;
   height: max-content;
   min-height: fit-content;
-  background-color: #0a2059;
+  /* background-color: #0a2059; */
   /* background-image: url("../assets/Home/bg.jpg"); */
 }
 .profile-parent {
   display: flex;
   align-items: center;
-  color: aliceblue;
+  color: black;
 }
 .profile-details-name {
   font-size: 24px;
@@ -74,9 +74,10 @@
 }
 
 .colz .colz-icon i {
-  color: white;
+  color: black;
   padding: 8px;
   padding-left: 0px;
+  font-size: 32px;
 }
 .colz .colz-icon i:hover {
   transform: scale(1.5);
