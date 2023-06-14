@@ -11,6 +11,7 @@ import Projects from "./pages/Projects";
 import Experience from "./pages/Experience";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Skills from "./pages/Skills";
 // import ProjectDisplay from "./pages/ProjectDisplay";
 
 function App() {
@@ -30,8 +31,7 @@ function App() {
         </Routes>
       </Router>
       <Education />
-      <Card />
-      <Card />
+      <Skills />
       <Card />
       <Card />
       <Contact />

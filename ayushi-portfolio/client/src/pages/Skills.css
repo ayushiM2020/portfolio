@@ -20,3 +20,7 @@
 .list span {
   font-size: 20px;
 }
+.web {
+  display: flex;
+  justify-content: space-evenly;
+}

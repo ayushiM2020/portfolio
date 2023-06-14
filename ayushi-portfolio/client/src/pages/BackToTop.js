@@ -1,5 +1,6 @@
 import React from "react";
 import { useEffect, useState } from "react";
+import { FaArrowUp } from "react-icons/fa";
 
 function BackToTop() {
   const [backToTop, setBackToTop] = useState(false);
@@ -34,7 +35,7 @@ function BackToTop() {
             borderRadius: "10px",
           }}
         >
-          ^
+          <FaArrowUp />
         </button>
       )}
     </div>
