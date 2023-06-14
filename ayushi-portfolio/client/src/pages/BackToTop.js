@@ -22,7 +22,6 @@ function BackToTop() {
   };
   return (
     <div>
-      BACK
       {backToTop && (
         <button
           onClick={scrollUp}
