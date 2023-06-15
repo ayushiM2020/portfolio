@@ -2,7 +2,6 @@ import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home1 from "./pages/Home1";
 import Education from "./pages/Education";
-
 import Card from "./card.js";
 import Contact from "./Contact.js";
 import Back from "./pages/BackToTop.js";
@@ -32,7 +31,7 @@ function App() {
       </Router>
       <Education />
       <Skills />
-      <Card />
+      <Experience />
       <Card />
       <Contact />
       <Back />
